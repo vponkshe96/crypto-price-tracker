@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  /* Dark Mode */
+  background-color: #1a1a1c;
+  color: #fff;
+}
+
+.coinSearch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.coinSearch h1 {
+  font-size: 20px;
+}
+
+.coinSearch input {
+  padding: 5px;
+  padding-left: 10px;
+  height: 40px;
+  width: 300px;
+  margin-bottom: 35px;
+  background-image: linear-gradient(
+    -225deg,
+    #ac32e4 0%,
+    #7918f2 48%,
+    #4801ff 100%
+  );
+  border-radius: 25px;
+  border: 2px solid #e2e2e2;
+}
+
+.coinSearch ::placeholder {
+  color: #e2e2e2;
+}
+
+.coinContainer {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  /* Need this for adding border */
+  border-collapse: collapse;
+  flex: 1;
+}
+
+table th {
+  font-size: 16px;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+}

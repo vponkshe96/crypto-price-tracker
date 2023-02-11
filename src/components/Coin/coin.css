@@ -1,0 +1,30 @@
+tr {
+  border-bottom: 1px solid gray;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+td img {
+  height: 45px;
+  width: 45px;
+}
+
+td h1 {
+  font-size: 16px;
+}
+
+td p {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+td p.coinPriceChangeGreen {
+  color: #11d811;
+}
+
+td p.coinPriceChangeRed {
+  color: #f00606;
+}
